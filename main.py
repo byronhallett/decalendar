@@ -18,7 +18,7 @@ class Decalander:
         dpm = Decalander.DAYS_PER_MONTH
         month = self.ordinal // dpm + 1
         if month == 11:
-            month = "c"
+            month = "c"  # stands for TODO
         day = self.ordinal % dpm + 1
         return "{}-{}-{}".format(self.year, month, day)
 
